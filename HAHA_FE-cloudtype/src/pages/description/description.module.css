@@ -1,0 +1,66 @@
+.outerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100vh;
+  background: #FFA451;
+  border-radius: 0px;
+  padding-top: 60px;
+}
+
+.header {
+  font-size: 26px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.innerContainer {
+  width: 100%;
+  height: 120vh;
+  background-color: #FFF2E7;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.badgeSection {
+  display: flex;
+  flex-direction: row; /* 가로 정렬 */
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-top: 40px; /* 내용 전체를 아래로 내리기 위한 상단 마진 추가 */
+
+}
+
+.badgeItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px; /* 각 배지 사이에 간격을 추가 */
+}
+
+.badgeImage {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+.badgeText {
+  font-size: 11px;
+  color: black;
+  text-align: center;
+  white-space: pre-line; /* 텍스트 줄바꿈 설정 */
+  margin-top: 10px; /* 내용 전체를 아래로 내리기 위한 상단 마진 추가 */
+}
+
+.highlight {
+  color: #0066cc;
+  font-weight: bold;
+}
