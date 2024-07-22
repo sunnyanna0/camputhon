@@ -1,0 +1,45 @@
+/* src/components/Modal.module.css */
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .modalContent {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .confirmButton, .closeButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .confirmButton {
+    background-color: #FFA451;
+    color: white;
+  }
+  
+  .closeButton {
+    background-color: #6c757d;
+    color: white;
+  }
+  

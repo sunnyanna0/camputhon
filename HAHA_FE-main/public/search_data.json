@@ -1,0 +1,19 @@
+{
+  "isSuccess": true,
+  "code": "COMMON200",
+  "message": "성공입니다.",
+  "result": [
+    {
+      "challengeId": "int",
+      "challengeTitle": "대운동장 3바퀴 뛰기",
+      "challengeTime": 30,
+      "challengeCategory": "운동"
+    },
+    {
+      "challengeId": "int",
+      "challengeTitle": "조깅하기",
+      "challengeTime": 30,
+      "challengeCategory": "운동"
+    }
+  ]
+}

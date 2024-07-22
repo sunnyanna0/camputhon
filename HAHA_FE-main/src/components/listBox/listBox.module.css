@@ -1,0 +1,68 @@
+
+.challenge_top_listBox {
+    width: 100%;
+    border-radius: 20px;
+    background-color: white;
+    align-items: center;
+    justify-content:space-between;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    flex-direction: row;
+  }
+  
+  .challenge_top_listBox_icon_run, .challenge_top_listBox_icon_pen, .challenge_top_listBox_icon_dice {
+    width: 8.5vw;
+    height: 8.5vw;
+    border-radius: 7px;
+    background-color: #FFC8C8;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .challenge_top_listBox_icon_run {
+    background-color: #FFC8C8;
+  }
+  
+  .challenge_top_listBox_icon_pen {
+    background-color: #FFFCBE;
+  }
+  
+  .challenge_top_listBox_icon_dice {
+    background-color: #BEDCFF;
+  }
+  
+  .challenge_top_listBox_text {
+    height: 8vw;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .challenge_top_listBox_text_top {
+    color: black;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  
+  .challenge_top_listBox_text_bottom {
+    color: #979797;
+    font-size: 10px;
+    font-weight: 600;
+  }
+  
+  .challenge_top_listBox_state {
+    width: 13vw;
+    background-color: #D2FFC7;
+    color: #00B132;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 7px;
+    padding: 4px;
+    font-weight: 700;
+    font-size: 12px;
+  }

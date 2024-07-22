@@ -1,0 +1,109 @@
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modalContent {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    min-width: 300px;
+    max-width: 90vw;
+    max-height: 80vh;
+    overflow-y: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background-color: transparent;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  .header {
+    font-size: 26px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .innerContainer {
+    width: 100%;
+    height: calc(100% - 60px);
+    background-color: #fff2e7;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .event {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .eventIcon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .eventDetails {
+    flex-grow: 1;
+  }
+  
+  .eventDetails h2 {
+    margin: 0;
+    font-size: 16px;
+    color: #333333;
+  }
+  
+  .eventDetails p {
+    margin: 0;
+    color: #666666;
+  }
+  
+  .eventTime {
+    font-size: 16px;
+    color: #1e90ff;
+  }
+  
+  .date {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .imagePlaceholder {
+    width: 90%;
+    height: 200px;
+    background-color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #666;
+  }
